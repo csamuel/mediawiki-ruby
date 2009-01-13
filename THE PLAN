@@ -1,0 +1,7 @@
+The plan is for functionality like this...
+
+>> server = Mediawiki::Server.new("en.wikipedia.org")
+>> page = server.get("Sushi")   # Doesn't actually hit the network
+>> html = page.html             # Scrapes the public html page
+>> page.last_modified_date      # either api or, if we have done html, scrapes it from the js
+>> page.revisions               # returns an array of Revisions
