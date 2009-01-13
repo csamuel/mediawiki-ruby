@@ -6,6 +6,10 @@ Please patch!
 
 * Written by Hampton Catlin
 
+= Development
+
+Read the file called "THE PLAN"
+
 == LICENSE:
 
 (The MIT License)
